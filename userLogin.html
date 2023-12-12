@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="home_mobile.css" media="screen and max-width:480px" />
+    <link rel="stylesheet" href="home_tablet.css" media="screen and (min-width:481px) and (max-width:768px)" />
+    <link rel="stylesheet" href="home_desktop.css" media="screen and (min-width:769px)" />
+    <script src="loginscript.js"></script>
+</head>
+
+<body>
+    <header>
+        <a id="name" href="index.html">Moviestars</a>
+        <hr class="line">
+    </header>
+    <h1 id="header">User login</h1>
+    <div id="block">
+        <form action="/login" method="POST" id="login-form">
+            <label for="emailAddressInput">Enter Your Email:</label><br>
+            <input id="emailAddressInput" type="email" name="emailAddressInput"><br><br>
+            <label for="passwordInput">Enter Your Password:</label><br>
+            <input id="passwordInput" type="password" name="passwordInput"><br><br>
+            <button type="submit" id="loginButton">Log in</button>
+        </form>
+        <div id="loginDisplay" style="display: none;">
+            <p id="loggedInMessage"></p>
+            <a id="login" href="userAccount.html">Head over to your Account!</a>
+        </div>
+        <br />
+        <a id="login" href="createUser.html">Not registered? Click here to create an Account!</a>
+    </div>
+    <script src="loginscript.js"></script>
+</body>
+
+</html>

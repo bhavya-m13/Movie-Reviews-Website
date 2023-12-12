@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+main {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+#movie-image img {
+    width: 100%;
+    height: auto;
+    border: 2px solid gold;
+}
+
+#user-reviews {
+    padding: 10px;
+    background-color: gold;
+    border: 2px solid red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: gold;
+    border-top: 2px solid red;
+}
+
+#leave-review-button {
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#leave-review-button:hover {
+    background-color: darkred;
+}
+
+#back-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;  
+    left: 10px; 
+}
+
+#back-button:hover {
+    background-color: darkred;
+}
+

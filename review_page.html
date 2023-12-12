@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Page</title>
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)">
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width: 767px)">
+    <script src="reviewpage.js"></script>
+</head>
+
+<body>
+
+    <a id="back-button" href="index.html">Back to Homepage</a>
+
+    <header>
+        <h1 id="movie-title">Movie Title Goes Here</h1>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <td style="vertical-align: top;">
+                    <section id="movie-image">
+                        <img id="movie-poster" src="" alt="Movie Poster">
+                    </section>
+                </td>
+                <td style="vertical-align: top;">
+                    <section id="user-reviews">
+                        <h2>User Reviews</h2>
+                        <ul id="reviews-list">
+                            <!-- Reviews inputted by user here -->
+                        </ul>
+                        <form id="review-form">
+                            <label for="user-name">Your Name:</label>
+                            <input type="text" id="user-name" required>
+			    <br><br>
+                            <label for="user-review">Your Review:</label>
+                            <textarea id="user-review" rows="4" required></textarea>
+			    <br><br>
+                            <button type="button" id="leave-review-button">Leave a Review</button>
+                        </form>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>

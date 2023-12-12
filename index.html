@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <title>Moviestars Home Page</title>
+    <link rel="stylesheet" href="home_mobile.css" media="screen and max-width:480px"/>
+    <link rel="stylesheet" href="home_tablet.css" media="screen and (min-width:481px) and (max-width:768px)"/>
+    <link rel="stylesheet" href="home_desktop.css" media="screen and (min-width:769px)"/>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <a id="name" href="index.html">Moviestars</a>
+      <hr class="line">
+    </header>
+
+    <div>
+      <a href="userLogin.html"><button type="button">Sign In</button></a>
+      <br><br>
+      <input type="text" id="search" onkeyup="search()" placeholder="Search for movies...">
+      <p>Filters:</p>
+      <button type="button" class="btn all active" onclick="filter('all')">Show All</button>
+      <button type="button" class="btn alphabetical" onclick="filter('alphabetical')">A-Z</button>
+      <button type="button" class="btn action" onclick="filter('action')">Action</button>
+      <button type="button" class="btn comedy" onclick="filter('comedy')">Comedy</button>
+      <button type="button" class="btn drama" onclick="filter('drama')">Drama</button>
+      <br><br>
+    </div>
+
+    <div id="movies">
+      <div id="avengers" class="filterDiv action">
+        <a href="#" data-movie="Avengers"><img src="images/Avengers.png" alt="Avengers: Infinity War"/></a>
+        <p><a href="#" data-movie="Avengers">Avengers: Infinity War</a></p>
+      </div>
+        
+      <div id="national" class="filterDiv action">
+        <a href="#" data-movie="NationalTreasure"><img src="images/NationalTreasure.png" alt="National Treasure"/></a>
+        <p><a href="#" data-movie="NationalTreasure">National Treasure</a></p>
+      </div>
+      
+      <div id="mr" class="filterDiv action">
+        <a href="#" data-movie="Mr_MrsSmith"><img src="images/Mr_MrsSmith.png" alt="Mr and Mrs Smith" /></a>
+        <p><a href="#" data-movie="Mr_MrsSmith">Mr & Mrs Smith</a></p>
+      </div>  
+      
+      <div id="batman" class="filterDiv action">
+        <a href="#" data-movie="Batman"><img src="images/Batman.png" alt="Batman" /></a>
+        <p><a href="#" data-movie="Batman">Batman</a></p>
+      </div>
+      
+      <div id="independence" class="filterDiv action">
+        <a href="#" data-movie="IndependenceDay"><img src="images/IndependenceDay.png" alt="Independence Day" /></a>
+        <p><a href="#" data-movie="IndependenceDay">Independence Day</a></p>
+      </div>
+
+      <div id="beetlejuice" class="filterDiv comedy">
+        <a href="#" data-movie="Beetlejuice"><img src="images/Beetlejuice.png" alt="Beetlejuice" /></a>
+        <p><a href="#" data-movie="Beetlejuice">Beetlejuice</a></p>
+      </div>
+
+      <div id="ferris" class="filterDiv comedy">
+        <a href="#" data-movie="FerrisBueller"><img src="images/FerrisBueller.png" alt="Ferris Bueller's Day Off" /></a>
+        <p><a href="#" data-movie="FerrisBueller">Ferris Bueller's Day Off</a></p>
+      </div>
+
+      <div id="clue" class="filterDiv comedy">
+        <a href="#" data-movie="Clue"><img src="images/Clue.png" alt="Clue" /></a>
+        <p><a href="#" data-movie="Clue">Clue</a></p>
+      </div>
+
+      <div id="legally" class="filterDiv comedy">
+        <a href="#" data-movie="LegallyBlonde"><img src="images/LegallyBlonde.png" alt="Legally Blonde" /></a>
+        <p><a href="#" data-movie="LegallyBlonde">Legally Blonde</a></p>
+      </div>
+
+      <div id="monty" class="filterDiv comedy">
+        <a href="#" data-movie="MontyPython"><img src="images/MontyPython.png" alt="Monty Python and the Holy Grail" /></a>
+        <p><a href="#" data-movie="MontyPython">Monty Python and the Holy Grail</a></p>
+      </div>
+
+      <div id="oppenheimer" class="filterDiv drama">
+        <a href="#" data-movie="Oppenheimer"><img src="images/Oppenheimer.png" alt="Oppenheimer" /></a>
+        <p><a href="#" data-movie="Oppenheimer">Oppenheimer</a></p>
+      </div>
+
+      <div id="godfather" class="filterDiv drama">
+        <a href="#" data-movie="Godfather"><img src="images/Godfather.png" alt="The Godfather" /></a>
+        <p><a href="#" data-movie="Godfather">The Godfather</a></p>
+      </div>
+
+      <div id="titanic" class="filterDiv drama">
+        <a href="#" data-movie="Titanic"><img src="images/Titanic.png" alt="Titanic" /></a>
+        <p><a href="#" data-movie="Titanic">Titanic</a></p>
+      </div>
+
+      <div id="whiplash" class="filterDiv drama">
+        <a href="#" data-movie="Whiplash"><img src="images/Whiplash.png" alt="Whiplash" /></a>
+        <p><a href="#" data-movie="Whiplash">Whiplash</a></p>
+      </div>
+
+      <div id="good" class="filterDiv drama">
+        <a href="#" data-movie="GoodWill"><img src="images/GoodWill.png" alt="Good Will Hunting" /></a>
+        <p><a href="#" data-movie="GoodWill">Good Will Hunting</a></p>
+      </div>
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,100 @@
+#login {
+    float: right;
+    background-color: gold;
+    border: 3px solid rgb(139, 103, 12);
+    color: black;
+}
+
+#name {
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(104, 1, 1, 0.727);
+    text-decoration: underline;
+    color: darkred;
+    font-size: 40px;
+}
+
+img {
+    height: 300px;
+    width: 175px;
+    border: 1px solid gold;
+}
+
+#block{
+    background-color: black;
+    width: 175px;
+    border: 15px solid darkred;
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+}  
+
+#header{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16.67px;
+    font-weight: bold;
+    color: gold;
+}
+
+.filterDiv {
+    float: left;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+}  
+
+.line { 
+    border-bottom: 5px solid darkred;
+    width: 100%; 
+} 
+
+.title {
+    text-decoration: underline;
+    font-size: 16.67px;
+    font-weight: bold;
+    color: gold;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#login:link {
+    text-decoration: underline;
+    color: rgb(88, 86, 228);
+}
+
+#login:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+#login:visited {
+    text-decoration: underline;
+    color: rgb(151, 34, 190);
+}
+
+button {
+    background-color: gold;
+    padding: 8px 8px;
+}
+
+button:hover, .active {
+    background-color: rgb(183, 159, 26);
+}
+
+#search {
+    width: 80%;
+    background-image: url("images/searchIcon.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 6px 6px;
+    padding: 8px 20px 8px 35px;
+}
+
+a {
+    color: white;
+}

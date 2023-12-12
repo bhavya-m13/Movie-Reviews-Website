@@ -1,0 +1,43 @@
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: gold;
+    font-size: 50px;
+}
+
+img {
+    height: 300px;
+    width: 175px;
+    border: 1px solid gold;
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 25px;
+    color: gold;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+  background-color: black;
+  color: gold;
+  font-size: 10px;
+}
+
+h2{
+  background-color: black;
+  color: gold;
+  font-size: 10px;
+}
+
+#icon {
+  height: 200px;
+  width: 200px;
+}
